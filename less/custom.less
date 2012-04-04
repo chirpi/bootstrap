@@ -1,0 +1,29 @@
+.rounded-corners (@radius: 5px) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+    behaviour: url(PIE.php);
+}
+.rounded-box {
+    .rounded-corners();
+    border: 1px solid @grayLighterBorder;
+    background-color: @white;
+}
+
+.rounded-box-gray {
+        .rounded-corners();
+        border: 1px solid @grayLighterBorder;
+        background-color:@grayLighter;
+}
+
+.banner-panel {
+        background-color: @primaryColor;
+        height: 85px;
+        padding:5px;
+        color: @white;
+        h1 { color: @white }
+        h6 { color: @white }
+        a { color: @white; text-decoration: none }
+        a:hover { color: lighten(@primaryColor, 10%); }
+}
+
