@@ -45,5 +45,5 @@ ${code} \
 --data output_format=text \
 --data output_info=compiled_code \
 --data compilation_level=${COMPILATION_LEVEL} \
---output ${NEWFILE}`
+--output {$NEWFILE}` 
 
